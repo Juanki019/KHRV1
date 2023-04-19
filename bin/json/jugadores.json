@@ -1,0 +1,15 @@
+[	
+	{
+    "jugador": {
+      "id": 1,
+      "nombre": "Pedro",
+      "apellido": "Garcia",
+      "tipoUsuario": "jugador",
+      "correo": "pgarcia@gmail.com",
+      "contrasenya": "/ISnYCRA2tM\u003d",
+      "sexo": "hombre",
+      "telefono": "3514843",
+      "dni": "x2345215x",
+      "timestamp": "Jan 17, 2021 7:59:19 PM"
+    }
+]

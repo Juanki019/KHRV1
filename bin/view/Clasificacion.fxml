@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane prefHeight="544.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VerClasificacionController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="283.0" minWidth="10.0" prefWidth="167.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="518.0" minWidth="10.0" prefWidth="487.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="258.0" minWidth="10.0" prefWidth="112.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="223.0" minHeight="10.0" prefHeight="82.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="379.0" minHeight="0.0" prefHeight="374.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="316.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" prefHeight="54.0" prefWidth="506.0" text="CLASIFICACIÓNES" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnChange1" mnemonicParsing="false" onAction="#changeImage1" prefHeight="25.0" prefWidth="76.0" style="-fx-background-radius: C1DEE8; -fx-border-color: black;" text="1 Division" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="70.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnChange2" mnemonicParsing="false" onAction="#changeImage2" prefHeight="25.0" prefWidth="72.0" style="-fx-border-color: black;" text="2 Division" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="220.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnChange3" mnemonicParsing="false" onAction="#changeImage2b" prefHeight="25.0" prefWidth="78.0" style="-fx-border-color: black;" text="2B Division" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="360.0" />
+         </GridPane.margin>
+      </Button>
+      <ImageView fx:id="myImageView" fitHeight="378.0" fitWidth="499.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../../../../Downloads/imagen1Division.png" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>

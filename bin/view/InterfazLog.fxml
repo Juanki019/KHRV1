@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <GridPane prefHeight="485.0" prefWidth="773.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="314.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="527.0" minWidth="10.0" prefWidth="459.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="453.0" prefWidth="314.0" style="-fx-background-color: #30373e;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="127.0" prefWidth="312.0" text="Bienvenido a KHR" textAlignment="CENTER" textFill="#f8f4f4" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" right="40.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="70.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="76.0" prefWidth="314.0" text=" ¿Estas registrado en KHR?" textFill="#eeebeb" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="130.0" prefWidth="314.0">
+                     <padding>
+                        <Insets left="40.0" right="40.0" />
+                     </padding>
+                     <children>
+                        <Button fx:id="btnSignIn" mnemonicParsing="false" onAction="#actionEvent1" prefHeight="20.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5px; -fx-background-radius: 5px;" text="Sign In" textFill="#fcfcfc">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnSignUp" mnemonicParsing="false" onAction="#actionEvent2" prefHeight="20.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5px; -fx-background-radius: 5px;" text="Sign Up" textFill="#7abf75">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnDelete" mnemonicParsing="false" onAction="#actionEvent3" prefHeight="27.0" prefWidth="68.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5px;" text="Delete" textFill="#f20606">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <GridPane GridPane.columnIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="138.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="200.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="125.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="184.0" minHeight="10.0" prefHeight="158.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="169.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="214.0" minHeight="10.0" prefHeight="98.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="214.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="214.0" minHeight="10.0" prefHeight="113.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="txtPassword" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtUsername" prefHeight="27.0" prefWidth="217.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <PasswordField fx:id="txtPasswordF" prefHeight="25.0" prefWidth="202.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <ComboBox fx:id="cbBox" prefHeight="25.0" prefWidth="201.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets top="50.0" />
+                     </GridPane.margin></ComboBox>
+                  <Label text="Perfil del Usaurio" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets top="60.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Button fx:id="btnclean" mnemonicParsing="false" onAction="#actionEventClean" prefHeight="20.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 5px; -fx-background-radius: 5px;" text="Clean" textFill="#111010" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="60.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <CheckBox fx:id="check" mnemonicParsing="false" prefHeight="17.0" prefWidth="70.0" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="70.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

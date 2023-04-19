@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="474.0" prefWidth="732.0" style="-fx-background-color: C1DEE8;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerFisio">
+   <children>
+      <BorderPane layoutX="1.0" prefHeight="476.0" prefWidth="732.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Label alignment="CENTER" prefHeight="83.0" prefWidth="732.0" text="FISIOTERAPEUTA INTERFACE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="174.0" minHeight="10.0" prefHeight="141.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="174.0" minHeight="10.0" prefHeight="174.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="366.0" text="Sensores data">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnSensores" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#verDataSensores" prefHeight="40.0" prefWidth="90.0" style="-fx-background-color: #30373e; -fx-background-radius: 10px;" text="ver" textFill="#f8f5f5" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="140.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="398.0" text="Futuras consultas" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnConsulta" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#verConsultas" prefHeight="40.0" prefWidth="83.0" style="-fx-background-color: #30373e; -fx-background-radius: 10px;" text="ver" textFill="#fcfafa" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="150.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <ImageView fitHeight="133.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../../../../Downloads/iconoConsulta.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="120.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fitHeight="88.0" fitWidth="174.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../../../../Downloads/iconosensores.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="100.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

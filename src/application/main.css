@@ -1,0 +1,38 @@
+#btnDetalles1:hover { 
+    -fx-border-color: black;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#btnDetalles2:hover { 
+    -fx-border-color: black;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#btnDetalles3:hover { 
+    -fx-border-color: black;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#btnCladificacion:hover { 
+    -fx-border-color: black;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#chartPuntos:hover{
+        -fx-font-size: 7px; 
+}
+
+#title{
+    -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);  
+}
+
+#btnPlantilla:hover{
+    -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);  
+    ;
+  }
+
+  #btnPlartidos:hover{
+    -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);  
+    ;
+  }
+
+  #btnLesionados:hover{
+    -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);  
+  }

@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "nombre": "Maria",
+    "VelocidadPunta": "31,5 km/h",
+    "FrecuenciaCardiacaR": "70",	/* frecuencia en reposo-R*/
+    "FrecuenciaCardiacaM": "131",	/* frecuencia despues de sprint*/
+    "ResultEMG": "Apto"
+  },
+  {
+    "id": 2,
+    "nombre": "Piere",
+    "VelocidadPunta": "27 km/h",
+    "FrecuenciaCardiacaR": "72",
+    "FrecuenciaCardiacaM": "152",
+    "ResultEMG": "Apto"
+  },
+  {
+    "id": 3,
+    "nombre": "sARA",
+    "VelocidadPunta": "21 km/h",
+    "FrecuenciaCardiacaR": "65",
+    "FrecuenciaCardiacaM": "140",
+    "ResultEMG": "Apto"
+  },
+    {
+    "id": 4,
+    "nombre": "sARA",
+    "VelocidadPunta": "35 km/h",
+    "FrecuenciaCardiacaR": "71",
+    "FrecuenciaCardiacaM": "143",
+    "ResultEMG": "No Apto" /* posible lesion muscular*/
+  }, 
+    {
+    "id": 5,
+    "nombre": "sARA",
+    "VelocidadPunta": "30 km/h",
+    "FrecuenciaCardiacaR": "80",
+    "FrecuenciaCardiacaM": "151",
+    "ResultEMG": "No Apto" /* posible lesion muscular*/
+  },
+    {
+    "id": 6,
+    "nombre": "sARA",
+    "VelocidadPunta": "26 km/h",
+    "FrecuenciaCardiacaR": "76",
+    "FrecuenciaCardiacaM": "150",
+    "ResultEMG": "Apto"
+  }, 
+    {
+    "id": 7,
+    "nombre": "sARA",
+    "VelocidadPunta": "29 km/h",
+    "FrecuenciaCardiacaR": "61",
+    "FrecuenciaCardiacaM": "130",
+    "ResultEMG": "Apto"
+  }, 
+    {
+    "id": 8,
+    "nombre": "sARA",
+    "VelocidadPunta": "30 km/h",
+    "FrecuenciaCardiacaR": "80",
+    "FrecuenciaCardiacaM": "148",
+    "ResultEMG": "Apto"
+  }, 
+    {
+    "id": 9,
+    "nombre": "sARA",
+    "VelocidadPunta": "29 km/h",
+    "FrecuenciaCardiacaR": "78",
+    "FrecuenciaCardiacaM": "145",
+    "ResultEMG": "No Apto" /* posible lesion muscular*/
+    
+  }, 
+    {
+    "id": 10,
+    "nombre": "sARA",
+    "VelocidadPunta": "31 km/h",
+    "FrecuenciaCardiacaR": "66",
+    "FrecuenciaCardiacaM": "139",
+    "ResultEMG": "Apto"
+    
+  } 
+]

@@ -1,0 +1,19 @@
+"lesionados": [{
+            "nombre": "1",
+            "posicion": "Item Title1",
+            "lesion": "330",
+            "gravedad": "1",
+        },
+        {
+            "nombre": "1",
+            "posicion": "Item Title1",
+            "lesion": "330",
+            "gravedad": "1",
+        },
+               {
+            "nombre": "1",
+            "posicion": "Item Title1",
+            "lesion": 330,
+            "gravedad": "1",
+        }
+    ]
